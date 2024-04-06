@@ -16,8 +16,8 @@ const dbURL =
   "mongodb+srv://pubu:test123@cluster99.xcnka7n.mongodb.net/UserDB?retryWrites=true&w=majority";
 mongoose
   .connect(dbURL, {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   })
   .then(() => {
     app.listen(3001, () => {

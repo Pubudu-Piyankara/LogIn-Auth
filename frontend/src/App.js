@@ -18,6 +18,7 @@ function App() {
           <Route path='/tasks' component={Tasks} />
           <Route path='/profile' component={Profile} />
           <Route path='/favorites' component={Favorites} />
+          <Route path='/register' element='Register' />
         </Routes>
       </Router>
     </>
